@@ -35,11 +35,11 @@ class _AdminPageState extends State<AdminPage> {
       builder:
           (ctx) => Theme(
             data: Theme.of(ctx).copyWith(
-              dialogBackgroundColor: bg,
               textTheme: Theme.of(ctx).textTheme.apply(
                 bodyColor: Colors.white,
                 displayColor: Colors.white,
               ),
+              dialogTheme: DialogThemeData(backgroundColor: bg),
             ),
             child: AlertDialog(
               backgroundColor: bg,
@@ -272,12 +272,12 @@ class _AdminPageState extends State<AdminPage> {
       builder:
           (ctx) => Theme(
             data: Theme.of(ctx).copyWith(
-              dialogBackgroundColor: bg,
               textTheme: Theme.of(ctx).textTheme.apply(
                 bodyColor: Colors.white,
                 displayColor: Colors.white,
               ),
               inputDecorationTheme: _whiteInput,
+              dialogTheme: DialogThemeData(backgroundColor: bg),
             ),
             child: StatefulBuilder(
               builder:
@@ -383,12 +383,12 @@ class _AdminPageState extends State<AdminPage> {
       builder:
           (ctx) => Theme(
             data: Theme.of(ctx).copyWith(
-              dialogBackgroundColor: bg,
               textTheme: Theme.of(ctx).textTheme.apply(
                 bodyColor: Colors.white,
                 displayColor: Colors.white,
               ),
               inputDecorationTheme: _whiteInput,
+              dialogTheme: DialogThemeData(backgroundColor: bg),
             ),
             child: AlertDialog(
               backgroundColor: bg, // explicit to match page background
@@ -441,8 +441,8 @@ class _AdminPageState extends State<AdminPage> {
       builder:
           (ctx) => Theme(
             data: Theme.of(ctx).copyWith(
-              dialogBackgroundColor: bg,
               textTheme: Theme.of(ctx).textTheme.apply(bodyColor: Colors.white),
+              dialogTheme: DialogThemeData(backgroundColor: bg),
             ),
             child: AlertDialog(
               backgroundColor: bg, // explicit to match page background
@@ -488,11 +488,11 @@ class _AdminPageState extends State<AdminPage> {
 
         return Theme(
           data: Theme.of(ctx).copyWith(
-            dialogBackgroundColor: bg,
             textTheme: Theme.of(ctx).textTheme.apply(
               bodyColor: Colors.white,
               displayColor: Colors.white,
             ),
+            dialogTheme: DialogThemeData(backgroundColor: bg),
           ),
           child: AlertDialog(
             backgroundColor: bg, // explicit to match page background

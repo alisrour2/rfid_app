@@ -6,6 +6,7 @@ import 'package:rfid_app/Models/record_info.dart';
 import 'package:rfid_app/Models/table_info.dart';
 import 'package:rfid_app/Models/table_permission.dart';
 import 'package:rfid_app/Models/user_info.dart';
+import 'package:rfid_app/constants.dart';
 
 extension _Resp on http.Response {
   String get safeBody => body.isEmpty ? '<empty>' : body;
@@ -16,8 +17,7 @@ class ApiService {
   static final ApiService _i = ApiService._();
   factory ApiService() => _i;
 
-  // Prefer 127.0.0.1 on Windows
-  static const String baseUrl = 'http://127.0.0.1:5298';
+  static const String baseUrl = Constants.apiBaseUrl;
 
   int? _tenantId;
   int? _userId;
