@@ -18,15 +18,15 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Screenshots
 
-![Home](assets/screenshots/home page.PNG)
-![Scan](assets/screenshots/login.PNG)
-![Records](assets/screenshots/permissions.PNG)
+![Home](lib/assets/screenshots/home page.PNG)
+![Scan](lib/assets/screenshots/login.PNG)
+![Records](lib/assets/screenshots/permissions.PNG)
 
 ## Screenshots
 <p>
-  <img src="assets/screenshots/home page.PNG" width="45%" />
-  <img src="assets/screenshots/login.PNG" width="45%" />
+  <img src="lib/assets/screenshots/home page.PNG" width="45%" />
+  <img src="lib/assets/screenshots/login.PNG" width="45%" />
 </p>
 <p>
-  <img src="assets/screenshots/permissions.PNG" width="45%" />
+  <img src="lib/assets/screenshots/permissions.PNG" width="45%" />
 </p>
