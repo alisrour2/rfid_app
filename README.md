@@ -1,4 +1,5 @@
 # rfid_app
+FLUTTER APP
 
 The RFID App is a multi-tenant application designed to manage tables, fields, records, and users with powerful admin functionalities. It provides a clean and intuitive interface for handling business data, managing permissions, and overseeing user access across different tenants.
 
